@@ -1,0 +1,766 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*header css*/
+header{
+    top: 0;
+    position: fixed;
+    display: flex;
+    background-color:  #30694b;
+    padding: 10px;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.header{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display:block;
+    line-height: 0px;
+    padding: 25px 10px 20px 10px;
+}
+
+
+nav ul ul {   
+    top: 45px;
+    position:absolute;
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+} 
+
+nav ul ul li {
+    display:list-item;
+    background-color: white;
+    width: 200px;
+}
+
+nav ul ul li a{
+    color: gray;
+    font-size: 22px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul ul li a:hover{
+    color: #30694b;
+}
+
+.d1 a{
+    color: black;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.plants{
+    display: flex;
+}
+
+.icons{
+    margin-left: 400px;
+    margin-top: 25px;
+}
+
+.icons a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+/*heroimg section css*/
+.heroimg{
+    background-image: url(images/img3.jpg);
+    width: 900px;
+    height: 850px;
+}
+
+.img1{
+    margin-left: 80px;
+    margin-top: 200px;
+    height: 800px;
+    width: 1320px;
+}
+
+
+
+
+/*web info section css*/
+.info{
+    display: flex;
+    margin-left: 50px;
+}
+
+.info1{
+    display: flex;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.info1 a{
+    color: #30694b;
+    font-size: 50px;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 35px;
+}
+
+span{
+    color: grey;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+
+
+/*categorie section css*/
+.caption{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 70px;
+}
+
+.frames{
+    display: flex;
+    position: relative;
+}
+.frame{
+    position: relative;
+    /*z-index: -10;*/ 
+}
+
+.plant_1{
+    margin: 0px 80px 0px 190px;
+}
+
+.plant_2{
+    margin: 0px 80px 0px 300px;
+}
+
+.plant_3{
+    margin: 0px 80px 0px 300px;
+}
+
+.mainframe{
+    position: absolute;
+    border: 10px solid var(--secondary-color);
+    background-color: rgb(232, 229, 229);
+    height: 460px;
+    width: 350px;
+}
+
+.frame:hover .mainframe{
+    background-image: url(images/img4.jpg);
+    opacity: 0.7;
+}
+
+.box1{
+    position: absolute;
+    height: 420px;
+    width: 300px;
+    margin: 20px 0px 20px 25px;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box1:hover{
+    color: #30694b;
+ }
+
+.plantimg{
+    margin-top: -70px;
+    margin-left: -20px;
+}
+
+
+
+
+/*treading section css*/
+.treading{
+    background-color: rgb(248, 245, 245);
+    width: 100%;
+    height: 900px;
+    margin-top: 550px;
+}
+
+.names{
+    display: flex;
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.button{
+    background-color: rgb(248, 245, 245);
+    padding: 10px 25px 10px 25px;
+    border-radius: 35px;
+    color: black;
+    margin-right: 30px;
+}
+
+.A{
+    margin-left: 470PX;
+}
+
+.button:hover{
+    background-color: #30694b;
+    color: white;
+}
+
+.img2{
+    display: flex;
+}
+
+
+.main{
+    border: 1px solid rgb(200, 197, 197);
+    background-color: white;
+    width: 260px;
+    height: 550px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.box_1{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.box_2{
+    margin-right: 20px;
+}
+
+.m_1{
+    width: 250px;
+    height: 350px;
+    margin-left: -10px;
+
+}
+
+.p_img{
+    position: relative;
+    display: inline-block;
+}
+
+.imghover{
+    width: 250px;
+    height: 350px;
+    margin-left: -10px;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.p_img:hover .imghover {
+    display: inline;
+}
+
+.caption_2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.caption_2 a:hover{
+    color: #30694b;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.star_icon{
+    color: #ffb503;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.price{
+    font-weight: bolder;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon_4{
+    display: flex;
+    margin-top: 20px;
+}
+
+.button_1:hover{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 8px;
+    padding: 8px;
+    background-color: #30694b;
+    color: white;
+    border-radius: 100px;
+}
+
+.button_1{
+    color: black;
+    background-color: rgb(248, 245, 245);
+    margin-right: 20px;
+    margin-left: 8px;
+    padding: 8px;
+}
+
+/* .arrows{
+    display: flex;
+    color: black;
+    margin-top: 580px;
+    margin-left: -750px;
+    font-size: 25px;
+    background-color:#e5e5e5;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+} */
+
+/* .border{
+    border-right: 3px solid rgb(248, 245, 245);
+    margin: -10px 25px -10px 26px;
+}
+
+.arrows:hover{
+    background-color: #30694b;
+    color: white;
+} */
+
+
+
+
+/* shopping section css */
+.shop{
+    display: flex;
+}
+
+.shop_1{
+    background-image: url(images/img16.jpg);
+    height: 400px;
+    width: 570px;
+    margin: 80px 0px 80px 140px;
+    /* transition: all 1s; */
+}
+
+.shop_2{
+    background-image: url(images/img17.jpg);
+    height: 400px;
+    width: 570px;
+    margin: 80px 0px 80px 40px;
+    /* transition: all 1s; */
+}
+
+.store{
+    color: #30694b;
+    font-size: 20px;
+    padding: 100px 0px 0px 30px;
+}
+
+.pot{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px 250px 0px 30px;
+}
+
+.button_2{
+    margin: 30px 360px 0px 30px;
+    padding: 12px;
+    background-color: #30694b;
+    color: white;
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button_2:hover{
+    background-color: black;
+}
+
+/* .shop_1:hover{ 
+    transform: scale(1.2);
+} */
+
+
+
+/* decoration section css */
+.count{
+    background-image: url(images/img18.jpg);
+    width: 113.5%;
+    height: 400px;
+    margin-left: -200px;
+}
+
+.decoration{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 50px 0px 0px 200px;
+}
+
+.discount{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 0px 200px;
+}
+
+.button_3{
+    margin: 30px 650px 0px 850px;
+    padding: 12px;
+    background-color: #30694b;
+    color: white;
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button_3:hover{
+    background-color: black;
+}
+
+
+
+/* customer section css */
+.box_3{
+    background-color: #f7f7f7;
+    height: 600px;
+    width: 1150px;
+    margin: -100px 0px 30px 170px;
+}
+
+.box_4{
+    position: relative;
+    background-color: #e5e5e5;
+    height: 580px;
+    width: 1127px;
+    margin: -100px -50px 30px 0px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.latter{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.left_quote{
+    color: rgb(154, 149, 149);
+    font-size: 40px;
+    padding: 10px 0px 0px 150px;
+}
+
+.p{
+    color: rgb(41, 40, 40);
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 150px 0px 220px;
+}
+
+.right_quote{
+    color: rgb(154, 149, 149);
+    font-size: 40px;
+    padding: 10px 0px 0px 970px;
+}
+
+.customer_img{
+    text-align: center;
+}
+
+.girl_img{
+    border-radius: 100px;
+    border: 2px solid #30694b;
+}
+
+.latter_2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(41, 40, 40);
+}
+
+.customer{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+
+
+/* branch section css */
+.logoimg{
+    display: flex;
+}
+
+.logo_1{
+    background-color:  #e5e5e5;
+    padding: 10px;
+    height: 60px;
+    width: 120px;
+    margin: 0px 80px 100px 150px;
+}
+
+.logo_2{
+    background-color:  #e5e5e5;
+    padding: 10px;
+    height: 60px;
+    width: 130px;
+    margin: 0px 80px 50px 0px;
+}
+
+
+
+/* blog section css */
+.blog{
+    display: flex;
+}
+
+.lat{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.flo_img{
+    margin-left: 150px;
+}
+
+.bg{
+    position: absolute;
+    background-color: white;
+    height: 270px;
+    width: 510px;
+    margin: 320px 0px 50px 180px;
+}
+
+.date_2{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 0px 15px 0px;
+}
+
+.about{
+    text-align: center;
+    font-size: 25px;
+}
+
+.lorem{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px 0px 15px;
+}
+
+.button_4{
+    margin: 20px 160px 0px 160px;
+    padding: 12px;
+    background-color: #30694b;
+    color: white;
+    border-radius: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button_4:hover{
+    background-color: black;
+}
+
+.bg_2{
+    position: relative;
+    background-color: white;
+    height: 270px;
+    width: 510px;
+    margin: 0px 160px 50px 100px;
+    
+}
+
+.flo2_img{
+    margin-left: -700px;
+    margin-top: 160px;
+}
+
+
+
+/* subscribe section css */
+.news{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+    margin-top: 100px;
+}
+
+.sub{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sub_2{
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.email{
+    padding: 20px 0px 0px 450px;
+    height: 20px;
+}
+
+.e{
+    background-color:white;
+    padding: 25px 440px 25px 10px;
+    height: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+.button_5{
+    position: relative;
+    margin: -50px 410px 0px 410px;
+    padding: 15px;
+    background-color: #30694b;
+    color: white;
+    border-radius: 100px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button_5:hover{
+    background-color: black;
+}
+
+.web_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgcolor{
+    background-color: #e5e5e5;
+    height: 35px;
+    width: 35px;
+    margin-top: 100px;
+    border-radius: 100px;
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.bgcolor:hover{
+    background-color: #30694b;
+    color: white;
+}
+
+.hr{
+    border-top: 2px solid #e5e5e5;
+    margin: 80px 200px 0px 180px;
+}
+
+
+
+
+/* footer css */
+.footer_main{
+    background-color: #f7f7f7;
+    display: flex;
+    margin-top: -120px;
+}
+
+.contact_info{
+    margin: 0px 50px 200px 180px;
+}
+
+.contact{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.main_info{
+    display: flex;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.location{
+    color: gray;
+}
+
+.contact_icon{
+    color: #103622;
+    margin-right: 10px;
+}
+
+.about_us{
+    color: grey;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.about_us:hover{
+    color: #103622;
+}
+
+.information_main{
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
